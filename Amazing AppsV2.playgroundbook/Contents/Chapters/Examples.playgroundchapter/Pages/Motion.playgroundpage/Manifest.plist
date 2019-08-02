@@ -3,11 +3,10 @@
 <plist version="1.0">
 <dict>
 	<key>Name</key>
-	<string>Examples</string>
-	<key>Pages</key>
-	<array>
-		<string>TouchPad.playgroundpage</string>
-		<string>Motion.playgroundpage</string>
-	</array>
+	<string>Motion</string>
+	<key>LiveViewEdgeToEdge</key>
+	<true/>
+	<key>LiveViewMode</key>
+	<string>VisibleByDefault</string>
 </dict>
 </plist>
