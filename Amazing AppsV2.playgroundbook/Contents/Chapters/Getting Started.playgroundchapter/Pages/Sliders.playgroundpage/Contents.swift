@@ -14,11 +14,11 @@ class ViewController: UIViewController {
         self.view = appview
         //#-end-hidden-code
         
-        //: **Exercise 1**
-        //: * Run the code and see how the label works.
-        //: * Adjust the x/y values to change the label position
-        //: * Adjust the width and height
-        //: * **Run** the code to see your changes
+//: **Exercise 1**
+//: * Run the code and see how the label works.
+//: * Adjust the x/y values to change the label position
+//: * Adjust the width and height
+//: * **Run** the code to see your changes
         //view is the UI (user interface) object that makes the entire screen of your app.
         view.backgroundColor = UIColor.white
         
@@ -48,10 +48,10 @@ class ViewController: UIViewController {
         view.addSubview(myslider)
 
         
-        //: **Exercise 2**
-        //: * Using the example above, create a new label object
-        //: * Design your label how you want it and Run the code
-        //: * Type your code below:
+//: **Exercise 2**
+//: * Using the example above, create a new label object
+//: * Design your label how you want it and Run the code
+//: * Type your code below:
         
         //#-hidden-code
     }

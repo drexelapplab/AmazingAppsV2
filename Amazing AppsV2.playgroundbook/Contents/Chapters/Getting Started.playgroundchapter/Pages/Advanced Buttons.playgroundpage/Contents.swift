@@ -15,13 +15,13 @@ class ViewController: UIViewController {
         
     //#-end-hidden-code
         
-        //: **Exercise 1
-        //:* Run the code and see how the button works.
-        //:* Look in the Resources folder for more images and sounds
-        //:* Change the image on the button
-        //:* Adjust the loop to play the sound more or less times
-        //:* Change the touch action to addAudioTouchDown
-        //:* Run the code to see your changes
+//: **Exercise 1
+//: * Run the code and see how the button works.
+//: * Look in the Resources folder for more images and sounds
+//: * Change the image on the button
+//: * Adjust the loop to play the sound more or less times
+//: * Change the touch action to addAudioTouchDown
+//: * Run the code to see your changes
 
         //view object creates a blank screen.
         //change the view color
@@ -39,11 +39,11 @@ class ViewController: UIViewController {
         //add the button to the screen
         view.addSubview(mybutton)
         
-        //: **Exercise 2**
-        //:* Using the example above, create a new button object
-        //:* Design the button how you want it.
-        //:* Add a touch action, image and loop
-        //:* Look in the Resources folder for more sound files
+//: **Exercise 2**
+//: * Using the example above, create a new button object
+//: * Design the button how you want it.
+//: * Add a touch action, image and loop
+//: * Look in the Resources folder for more sound files
 
         //type your new code below
         

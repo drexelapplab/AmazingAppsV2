@@ -15,11 +15,11 @@ class ViewController: UIViewController {
 
 //#-end-hidden-code
         
-        //# **Exercise 1
-        //: - Run the code and see how the button works.
-        //: - Adjust the x/y values to change the button position
-        //: - Adjust the width and height
-        //: - Run the code to see your changes
+//# **Exercise 1**
+//: * Run the code and see how the button works.
+//: * Adjust the x/y values to change the button position
+//: * Adjust the width and height
+//: * Run the code to see your changes
 
         //view object creates a blank screen.
         //change the view color
@@ -39,11 +39,11 @@ class ViewController: UIViewController {
         //add the button to the screen
         view.addSubview(mybutton)
         
-        //:**Exercise 2**
-        //:- Using the example above, create a new button object
-        //:- Design the button how you want it.
-        //:- Make sure to add a touch action
-        //:- Look in the Resources folder for more sound files
+//: **Exercise 2**
+//: * Using the example above, create a new button object
+//: * Design the button how you want it.
+//: * Make sure to add a touch action
+//: * Look in the Resources folder for more sound files
 
         //type your new code below
         

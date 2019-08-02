@@ -33,9 +33,9 @@ class ViewController: UIViewController {
         //add the label to the screen
         view.addSubview(mylabel)
         
-        //:**Exercise 2**
-        //: Using the example above, create a new label object
-        //:Design your label how you want it and Run the code
+//: **Exercise 2**
+//: * Using the example above, create a new label object
+//: * Design your label and run the code when you're ready
 
         //add your own code below
 
