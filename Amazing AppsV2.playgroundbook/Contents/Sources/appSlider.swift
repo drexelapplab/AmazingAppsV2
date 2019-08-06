@@ -28,16 +28,5 @@ public class appSlider: UISlider {
         self.maximumValue = max
     }
     
-    public func attachButtonWithLoop(button: appButton){
-        self.sliderButton = button
-        self.addTarget(self, action: #selector(loopValueDidChange(_ :)), for: .valueChanged)
-    }
-    
-    //function needed for sliders
-    @objc func loopValueDidChange(_ sender:UISlider!)
-    {
-        self.sliderButton.setLoopCount(count: Int(sender.value))
-        
-    }
     
 }

@@ -19,7 +19,7 @@ class ViewController: UIViewController {
         //add a button
         var motion = appMotion(frame: CGRect(x: 10, y: 50, width: 500, height: 500))
         
-        motion.addMotionControl(image: "coin.png", sound1:"clap.wav", sound2:"coin.wav", delay: 60.0)
+        motion.addMotionControl(image: "coin.png", sound1:"clap.wav", sound2:"coin.wav", xMov: 0.5, zMov: 1.5)
         //set the button text
   
         //add the button to the screen

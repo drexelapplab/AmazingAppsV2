@@ -36,7 +36,7 @@ public class appMotion: UIButton {
         self.defaultColor = color
     }
     
-    public func addMotionControl(image: String, sound1: String, sound2: String, delay: Double) {
+    public func addMotionControl(image: String, sound1: String, sound2: String, xMov: Double, zMov: Double) {
         
         self.setImage(UIImage(named: image), for: .normal)
         
@@ -59,22 +59,22 @@ public class appMotion: UIButton {
         }
         //self.sound1 = try AVAudioPlayer(contentsOf: soundurl1)
         //self.sound2 = try AVAudioPlayer(contentsOf: soundurl2)
-        startAccelerometers(delay: delay)
+        startAccelerometers(xMov: xMov, zMov: zMov)
         
         //clear the colors
         self.setDefaultColor(color: UIColor.clear)
         self.setHighlightColor(color: UIColor.clear)
     }
     
-    public func startAccelerometers(delay: Double) {
+    public func startAccelerometers(xMov: Double, zMov: Double) {
         
         // Make sure the accelerometer hardware is available.
         if self.motion.isAccelerometerAvailable {
-            self.motion.accelerometerUpdateInterval = 1.0 / delay  // 60 Hz
+            self.motion.accelerometerUpdateInterval = 1.0 / 60.0 //60 Hz
             self.motion.startAccelerometerUpdates()
             
             // Configure a timer to fetch the data.
-            self.timer = Timer(fire: Date(), interval: (1.0/delay),
+            self.timer = Timer(fire: Date(), interval: (1.0/60.0),
                                repeats: true, block: { (timer) in
                                 // Get the accelerometer data.
                                 
@@ -84,11 +84,13 @@ public class appMotion: UIButton {
                                     let z = data.acceleration.z
                                     
                                     // Use the accelerometer data in your app.
-                                    if z > 0.5 {
+                                    //if z > 0.5 {
+                                    if z > zMov {
                                         self.sound1.play()
                                         
                                     }
-                                    if x > 0.5 {
+                                    //if x > 0.5 {
+                                    if x > xMov {
                                         self.sound2.play()
                                     }
                                 }

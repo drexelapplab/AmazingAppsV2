@@ -6,6 +6,7 @@
 	<string>Getting Started</string>
 	<key>Pages</key>
 	<array>
+		<string>Introduction.playgroundpage</string>
 		<string>Labels.playgroundpage</string>
 		<string>Buttons.playgroundpage</string>
 		<string>Advanced Buttons.playgroundpage</string>

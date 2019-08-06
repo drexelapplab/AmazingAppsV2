@@ -43,7 +43,7 @@ class ViewController: UIViewController {
         var drum4 = appButton(frame: CGRect(x: 250, y: 300, width: 150, height: 150))
         //set the button text
         drum4.addImage(image: "wooddrum.png")
-        drum4.addAudioTouchDown(sound: "Nia_Bass_Bb.wav")
+        drum4.addAudioTouchDown(sound: "nia_Bass_Bb.wav")
         //add the button to the screen
         view.addSubview(drum4)
 

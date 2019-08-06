@@ -47,7 +47,7 @@ public class appButton: UIButton {
     
     override public func touchesEnded(_ touches: Set<UITouch>, with event: UIEvent?) {
         self.backgroundColor = defaultColor //Color when UIView is clicked.
-        //self.player.stop()
+        self.player.stop()
     }
     
     public func setHighlightColor(color: UIColor) {
