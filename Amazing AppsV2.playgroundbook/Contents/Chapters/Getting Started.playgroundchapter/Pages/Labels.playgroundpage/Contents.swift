@@ -2,8 +2,7 @@
 //: ## Creating a Label
 //:
 //: This exercise will show you how to create a label and adjust the size, color, and position.
-
-// #-hidden-code
+//#-hidden-code
 import PlaygroundSupport
 import UIKit
 import AVFoundation
@@ -11,8 +10,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         let appview = UIView()
         self.view = appview
-// #-end-hidden-code
-        
+//#-end-hidden-code        
 //: **Exercise 1**
 //: * Run the code and see how the label works.
 //: * Adjust the x/y values to change the label position

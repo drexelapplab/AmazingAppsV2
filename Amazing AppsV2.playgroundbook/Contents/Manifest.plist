@@ -6,6 +6,7 @@
 	<array>
 		<string>Getting Started.playgroundchapter</string>
 		<string>Examples.playgroundchapter</string>
+		<string>Your Project.playgroundchapter</string>
 	</array>
 	<key>ContentIdentifier</key>
 	<string>excite.playgrounds.amazingapps.Amazing-AppsV2</string>
