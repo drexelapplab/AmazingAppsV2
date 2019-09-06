@@ -31,7 +31,7 @@ class ViewController: UIViewController {
         //the color of the button when pressed
         mybutton.setHighlightColor(color : UIColor.green)
         //play a sound when held down
-        mybutton.addAudio(sound: "clap.wav", type: "up")
+        mybutton.addAudio(sound: "clap.wav", touch: "up")
         
         //add the button to the view so it displays on the screen
         view.addSubview(mybutton)

@@ -1,9 +1,3 @@
-
-//: [Previous](@previous)
-//: ## Motion Example
-//:
-//: Run the code below to see an example of a touch pad of a motion controlled app.
-
 //#-hidden-code
 import PlaygroundSupport
 import UIKit
@@ -13,9 +7,13 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         let appview = UIView()
         self.view = appview
-        //#-end-hidden-code
         view.backgroundColor = UIColor.white
-        
+//#-end-hidden-code
+//: [Previous](@previous)
+//: ## Motion Example
+//:
+//: Run the code below to see an example of a touch pad of a motion controlled app.
+
         //add a button
         var motion = appMotion(frame: CGRect(x: 10, y: 50, width: 500, height: 500))
         
@@ -26,7 +24,7 @@ class ViewController: UIViewController {
         view.addSubview(motion)
         
         
-        //#-hidden-code
+//#-hidden-code
     }
 }
 PlaygroundSupport.PlaygroundPage.current.liveView = ViewController()

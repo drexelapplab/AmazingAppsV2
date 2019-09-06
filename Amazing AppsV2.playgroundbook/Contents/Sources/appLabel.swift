@@ -3,14 +3,12 @@ import Foundation
 import UIKit
 import AVFoundation
 
-
-
 public class appLabel: UILabel {
     
-    public var setWidth = 200
-    public var setHeight = 60
-    public var setX = 100
-    public var setY = 100
+    public var width = 200
+    public var height = 60
+    public var xPos = 100
+    public var yPos = 100
     
     public override init(frame: CGRect) {
         super.init(frame: frame)
@@ -25,22 +23,24 @@ public class appLabel: UILabel {
     required public init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
         fatalError("init(coder:) has not been implemented")
-        
     }
     
+    //set default shape of label
     private func setupFrame() {
-        frame = CGRect(x:setX, y:setY, width:setWidth, height:setHeight)
+        frame = CGRect(x:xPos, y:yPos, width:width, height:height)
     }
     
-    public func setPosition(x: Int, y: Int) {
-        setX = x
-        setY = y
+    public func setPosition(x: Int, y: Int){
+        self.xPos = x
+        self.yPos = y
+        //reset frame
         setupFrame()
     }
     
-    public func setSize(width: Int, height: Int) {
-        setWidth = width
-        setHeight = height
+    public func setSize(width: Int, height: Int){
+        self.width = width
+        self.height = height
+        //reset frame
         setupFrame()
     }
 }

@@ -23,5 +23,7 @@
 	<string>5.0</string>
 	<key>Version</key>
 	<string>4.0</string>
+	<key>ImageReference</key>
+	<string>amazing-apps-logo.png</string>
 </dict>
 </plist>

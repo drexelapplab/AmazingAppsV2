@@ -10,6 +10,7 @@
 		<string>ImageLoop.playgroundpage</string>
 		<string>Motion.playgroundpage</string>
 		<string>MotionPitch.playgroundpage</string>
+		<string>PitchSlider.playgroundpage</string>
 	</array>
 </dict>
 </plist>
