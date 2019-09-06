@@ -1,7 +1,3 @@
-//: [Previous](@previous)
-//: ## Creating a Label
-//:
-//: This exercise will show you how to create a label and adjust the size, color, and position.
 //#-hidden-code
 import PlaygroundSupport
 import UIKit
@@ -10,21 +6,28 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         let appview = UIView()
         self.view = appview
-//#-end-hidden-code        
+//#-end-hidden-code
+//: [Previous](@previous)
+//: ## Creating a Label
+//:
+//: This exercise will show you how to create a label and adjust the size, color, and position.
 //: **Exercise 1**
 //: * Run the code and see how the label works.
 //: * Adjust the x/y values to change the label position
 //: * Adjust the width and height
 //: * **Run** the code to see your changes
 
-        //view object is the UI (user interface) object.
-        //the view creates a blank screen for you
+        //a view is an object that displays something on the screen
+        //this view creates a blank screen that will display our label
+        
+        //change the background color of the screen
+        //use Swift's UIColor function to set the color
         view.backgroundColor = UIColor.white
         
-        //create a label object
-        var mylabel = appLabel(frame: CGRect(x: 100, y: 100, width: 150, height: 50))
+        //create a label object using the appLabel class
+        var mylabel = appLabel()
         //add text
-        mylabel.text = "Amazing Sound"
+        mylabel.text = "My Amazing Sound"
         //change the color
         mylabel.textColor = UIColor.blue
         

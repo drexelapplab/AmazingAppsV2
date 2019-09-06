@@ -7,8 +7,9 @@
 	<key>Pages</key>
 	<array>
 		<string>TouchPad.playgroundpage</string>
-		<string>Motion.playgroundpage</string>
 		<string>ImageLoop.playgroundpage</string>
+		<string>Motion.playgroundpage</string>
+		<string>MotionPitch.playgroundpage</string>
 	</array>
 </dict>
 </plist>

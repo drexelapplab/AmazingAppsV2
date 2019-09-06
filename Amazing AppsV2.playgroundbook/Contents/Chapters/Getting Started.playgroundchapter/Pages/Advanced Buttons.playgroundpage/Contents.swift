@@ -1,20 +1,17 @@
-//: [Previous](@previous)
-//: ## Advanced Buttonl Functions
-//:
-//: This exercise will show you how to add images and loops to your button
 //#-hidden-code
 import PlaygroundSupport
 import UIKit
 import AVFoundation
-//-end-hidden-code
 class ViewController: UIViewController {
-    //:-hidden-code
     override func viewDidLoad() {
         let appview = UIView()
         self.view = appview
-        
-    //#-end-hidden-code
-        
+//#-end-hidden-code
+//: [Previous](@previous)
+//: ## Advanced Buttonl Functions
+//:
+//: This exercise will show you how to add images and loops to your button
+//:
 //: **Exercise 1
 //: * Run the code and see how the button works.
 //: * Look in the Resources folder for more images and sounds
@@ -28,11 +25,11 @@ class ViewController: UIViewController {
         view.backgroundColor = UIColor.white
         
         //add a button
-        var mybutton = appButton(frame: CGRect(x: 100, y: 100, width: 150, height: 150))
+        var mybutton = appButton()
         //attach an image to the button
         mybutton.addImage(image: "cymbal.png")
         //use the toggle function to play the whole sound
-        mybutton.addAudioToggle(sound: "clap.wav")
+        mybutton.addAudio(sound: "coin.wav",touch: "down")
         //add a loop to the audio
         mybutton.setLoopCount(count: 6)
         

@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>Name</key>
-	<string>Getting Started</string>
+	<string>Project</string>
 	<key>Pages</key>
 	<array>
 		<string>Project.playgroundpage</string>
